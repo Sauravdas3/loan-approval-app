@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
+from sklearn.tree import DecisionTreeClassifier 
 
 # Load the pre-trained machine learning model
 with open("model.pkl", "rb") as file:
